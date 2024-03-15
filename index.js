@@ -19,6 +19,6 @@ function send_data_to_backend(event) {
     //     window.open('http://127.0.0.1:8001/plotly', '_blank');
     // })
     // .catch(error => console.error('Error:', error));
-    // location.href = 'https://2d-3d.jayantkhanna.in/plotly'
+    location.href = 'https://2d-3d.jayantkhanna.in/plotly'
     return false
 }
