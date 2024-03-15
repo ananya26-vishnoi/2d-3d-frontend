@@ -7,7 +7,7 @@ function send_data_to_backend(event) {
     var formData = new FormData();
     formData.append('image', file);
 
-    fetch('http://127.0.0.1:8001/generate', {
+    fetch('https://2d-3d.jayantkhanna.in/generate', {
         method: 'POST',
         mode: 'no-cors',
         body: formData,
@@ -19,6 +19,6 @@ function send_data_to_backend(event) {
     //     window.open('http://127.0.0.1:8001/plotly', '_blank');
     // })
     // .catch(error => console.error('Error:', error));
-    location.href = 'http://127.0.0.1:8001/plotly'
+    location.href = 'https://2d-3d.jayantkhanna.in/plotly'
     return false
 }
