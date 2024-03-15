@@ -12,7 +12,6 @@ function send_data_to_backend(event) {
         mode: 'no-cors',
         body: formData,
     })
-    .then(response => response.json()) 
     .then(data => {
         location.href = 'https://2d-3d.jayantkhanna.in/plotly'
         // ope google.com
